@@ -20,17 +20,30 @@ html {
     bottom: 0;
     width: 100%;
     height: 10%;
-    text-align: justify;
 
 }
 
 .nav-items {
     top: 50%;
-    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     justify-content: space-between;
 }
 
 .nav-items img{
-    transform: scale(1.5);
+    text-align: center;
+}
+
+.nav-text{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left:-10px;
+    margin: 0;
+}
+
+.home{
+    text-align: center;
 }
