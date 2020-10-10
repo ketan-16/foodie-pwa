@@ -1,29 +1,37 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+html {
+
     margin: 0;
     padding: 0;
-    background-color:rgb(240,240,240);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 245, 245);
 }
 
 .bottom-nav {
+    color: #000;
+    background-color: white;
     border-top: 1 8px 16px 1#333;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: center;
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 10%;
+    text-align: justify;
 
 }
 
-.bottom-nav a {
-    color: black;
+
+.bottom-nav ul {
+    list-style: none;
+    background-color: white;
+}
+
+.bottom-nav ul li {
+    background-color: white;
     text-align: center;
-    text-decoration: none;
-}
-
-.bottom-nav a.active {
-    background-color:rgb(240,240,240);
-    border-radius: 10px;
+    display: inline;
 }
