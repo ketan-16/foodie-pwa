@@ -3,11 +3,32 @@
 
 html {
 
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(245, 245, 245);
 }
+
+.content{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 0;
+}
+
+.greet{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.g-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
 
 .bottom-nav {
     color: #000;
@@ -19,12 +40,12 @@ html {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 10%;
+    height: 8%;
 
 }
 
 .nav-items {
-    top: 50%;
+    padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
@@ -46,3 +67,4 @@ html {
 .item{
     text-align: center;
 }
+
