@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(240,240,240);
+}
+
+.bottom-nav {
+    border-top: 1 8px 16px 1#333;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.bottom-nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom-nav a.active {
+    background-color:rgb(240,240,240);
+    border-radius: 10px;
+}
