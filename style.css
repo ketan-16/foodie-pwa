@@ -24,14 +24,9 @@ html {
 
 }
 
-
-.bottom-nav ul {
-    list-style: none;
-    background-color: white;
-}
-
-.bottom-nav ul li {
-    background-color: white;
-    text-align: center;
-    display: inline;
+.nav-items {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
 }
