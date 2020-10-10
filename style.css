@@ -25,6 +25,7 @@ html {
 }
 
 .nav-items {
+    top: 50%;
     padding: 2%;
     display: flex;
     justify-content: space-between;
