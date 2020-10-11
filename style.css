@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-<<<<<<< HEAD
 
 .main {
     background-color: rgb(250, 250, 250);
-=======
-.main{
-    background-color: rgb(245,245,245);
->>>>>>> 8897741609d8ca02db470e7c1c47d62cbafd4d6a
 }
 
 html {
@@ -14,7 +9,6 @@ html {
     margin-top: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
     background-color: rgb(250, 250, 250);
     scroll-snap-type: y proximity;
     scroll-padding-top: 5px;
@@ -26,17 +20,6 @@ body {
 
 .main {
     background-color: rgb(250, 250, 250);
-=======
-    background-color: rgb(245,245,245);
-}
-
-body{
-    background-color: rgb(245,245,245);
-}
-
-.main{
-    background-color: rgb(245,245,245);
->>>>>>> 8897741609d8ca02db470e7c1c47d62cbafd4d6a
 }
 
 
@@ -44,12 +27,7 @@ body{
     margin-top: 10px;
     margin-left: 3%;
     margin-right: 3%;
-<<<<<<< HEAD
     background-color: rgb(250, 250, 250);
-=======
-    margin-bottom: 9%;
-    background-color: rgb(245,245,245);
->>>>>>> 8897741609d8ca02db470e7c1c47d62cbafd4d6a
 }
 
 
